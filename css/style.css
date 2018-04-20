@@ -100,7 +100,7 @@ header {
 }
 
 
-#obrazek {
+#image {
     text-align: center;
 
 }
@@ -134,7 +134,7 @@ display: inline-block;
     background-repeat: no-repeat;
     background-position: center;
     float: left;
-    height: 300px;
+    height: 350px;
     width: 33.33%;
     background-size: cover;
 }
@@ -149,8 +149,20 @@ display: inline-block;
 #photo3{
     background-image: url("../img/portfolio3.jpg");
 }
+
 #photo{
     padding-top: 0px;
     padding-left: 50px;
     padding-right: 50px;
+}
+
+.mask {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: all 0.4s;
+ }
+
+.mask:hover {
+    opacity: 1;
 }
