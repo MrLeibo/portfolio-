@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+
+#menu {
+    text-align: right;
+    /*wyjustowanie tekstudo środka*/
+    background: #fff;
+    /*Kolor tła*/
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+
+}
+
+#menu .menu-item {
+    display: inline-block;
+    /*ustawienie elementów jeden koło drugiego*/
+    padding: 10px;
+    list-style: none;
+}
+
+
+
+#menu ul {
+    margin-right: 50px;
+
+
+}
+
+#menu .menu-item a {
+    text-decoration: none;
+    /*usunięcie podkreślenia*/
+    color: #32cd32;
+
+}
+
+header {
+    background-image: url("../img/header-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.header {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    text-align: center;
+
+}
+
+#main-header-text {
+    font-size: 120px;
+    margin: 0px;
+    font-weight: 100;
+}
+
+.title {
+    font-weight: 100;
+}
+
+
+#header-text {
+    font-size: 40px;
+    margin: 0px;
+    font-weight: 100;
+}
+
+.green {
+    color: limegreen;
+    font-weight: 400;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.about-me {
+    width: 50%;
+    display: inline-block;
+    margin: 0px;
+    float: left;
+    font-weight: 100;
+}
+
+
+.about-me img {
+    width: 50%;
+    text-align: center;
+    border: 20px solid white;
+    border-radius: 30px;
+}
+
+
+#obrazek {
+    text-align: center;
+
+}
+
+.clear {
+    clear: both;
+}
+
+#about {
+    padding: 50px;
+    background-color: #F8FCFF;
+}
+
+#skills {
+    padding: 50px;
+    text-align: center;
+}
+
+#skills-text {
+    text-align: center;
+    font-weight: 100;
+}
+
+.icons   {
+font-weight: 100;
+display: inline-block;
+}
+
+.photos {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+    height: 300px;
+    width: 33.33%;
+    background-size: cover;
+}
+
+#photo1{
+    background-image: url("../img/portfolio1.jpg");
+}
+#photo2{
+    background-image: url("../img/portfolio2.jpg");
+    
+    }
+#photo3{
+    background-image: url("../img/portfolio3.jpg");
+}
+#photo{
+    padding-top: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+}

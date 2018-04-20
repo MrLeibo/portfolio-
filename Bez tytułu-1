@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 40px
+}
+
+#menu {
+  text-align: left; /*wyjustowanie tekstudo środka*/
+  background: #000; /*Kolor tła*/
+}
+
+#menu .menu-item {
+  display: inline-block; /*ustawienie elementów jeden koło drugiego*/
+  padding: 30px; /*kolor marginesy tła*/
+  list-style: none;} /*neutralność menu*/
+    
+ #menu ul {
+  margin: 0; /*margines*/
+}
+
+#menu .menu-item a{
+  text-decoration: none; /*usunięcie podkreślenia*/
+  color: #fff; /*kolor*/
+            }
+
+#menu .menu-item a:hover{ /*hover po najechaniu*/
+    color: #999; /*kolor fontu*/
+    font-size: 50px;/*wielkość fontu*/
+    }
+
+img {
+    width:  100%
+}
+
+#header {
+  position: relative; /*element ruchomy z zabezpieczeniem miejsca ważna do napisu kótry bedzie miał absoluta*/
+  text-align: center; /*wycentrowanie w środku*/
+  width: 100%;
+     }
+
+#header #main-header-text {
+  position: absolute; /*element ruchomy bez zabezpieczenia miejsca*/
+  top: 50%; /*położenie*/
+  font-size: 50px; /*informacje ważne po zabraniu własciwości absolutem */
+  font-weight: 700; /*informacje ważne po zabraniu własciwości absolutem grubość fontu */
+  margin: 0 auto; /*informacje ważne po zabraniu własciwości absolutem*/
+  left: 0; /*informacje ważne po zabraniu własciwości absolutem*/
+  right: 0; /*informacje ważne po zabraniu własciwości absolutem*/
+  text-transform: uppercase; /*zmiana wszystkich liter na duże*/
+  color: #fff; /*kolor*/
+}
+
+#about {
+  margin: 50px 0; /*margines zewnetrzny*/
+  padding: 0 50px; /*margines wewnetrzny*/
+}
+
+#about #about-header{ /*tytu*/
+  font-size: 30px; /*wielkość fontu*/
+  text-align: center;  /*wyjustowanie do środka*/
+  margin-bottom: 20px;
+}
+
+#contact {
+  padding: 30px 50px; /*margines wewnetrzny*/
+  background: #222; /*kolor tła*/
+}
+
+#contact #contact-header{
+]  position: relative;
+  font-size: 30px; 
+  text-align: center; /*wyjustowanie do środka*/
+  margin-bottom: 20px; /*rozmiar dolnego zewnetrznego marginesu*/
+  color: #fff;  /*kolor*/
+}
+
+
+#contact #contact-content { /*font*/
+  text-align: center;
+  color: #fff;
+}
+
+#contact #contact-content a { /*link*/
+  color: #fff;
+}
+
+#contact #contact-content a:hover { /*link po najechaniu*/
+  color: #999;
+}
