@@ -86,4 +86,10 @@ img {
 
 #contact #contact-content a:hover { /*link po najechaniu*/
   color: #999;
+  
+  display: inline-block;
+    background-position: center;
+    border: 1px solid white;
+    padding: 1px;
+    position: relative;
 }

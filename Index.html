@@ -3,18 +3,26 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portfolio</title>
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,400|Roboto:100,400&amp;subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,200,400|Roboto:100,200,400&amp;subset=latin-ext" rel="stylesheet">
 
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
     <title>Document</title>
 </head>
 
 <body>
+   
     <nav id="menu">
-        <ul>
+
+<label for="checkbox_id"><i class="fa fa-bars" id="hamburger" aria-hidden="true"></i></label>
+<input type="checkbox" name="checkbox" id="checkbox_id" value="value">
+
+        <ul id="ul">
             <li class="menu-item"><a href="#about">O mnie</a></li>
             <li class="menu-item"><a href="#skills">Umiejętności</a></li>
             <li class="menu-item"><a href="#portfolio">Portfolio</a></li>
@@ -24,7 +32,7 @@
 
     <header>
         <div class="header">
-            <h1 id="main-header-text">Jan <span class="green">Kowalski</span></h1>
+            <h1 id="main-header-text">Piotr <span class="green">Pioterek</span></h1>
             <p id="header-text">Front-End Developer</p>
         </div>
     </header>
@@ -63,34 +71,88 @@
 
     </section>
 
-<section id='portfolio'>
-    <h2 class="title">Moje <span class="green">portfolio</span></h2>
-    <div id="photo">
-        <div id="photo1" class="photos">
-            <div class="mask">
-                <div class="border">
-                    <div class="content"></div>
+    <section id='portfolio'>
+        <h2 class="title">Moje <span class="green">portfolio</span></h2>
+        <div id="photo">
+            <div id="photo1" class="photos">
+                <div class="mask">
+                    <div class="border">
+                        <div class="content">
+                            <p class="content-title">Lorem ipsum</p>
+                            <p class="content-content">Opis projektu Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id ducimus nostrum et recusandae eius commodi ipsa illum omnis ipsum distinctio architecto. </p>
+                            <p class="content-title">Wykorzystane technologie:</p>
+                            <p class="content-content">HTML5, CSS3, RWD, Bootstrap, JavaScript, jQuery </p>
+                            <i class="fa fa-link" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="photo2" class="photos">
+                <div class="mask">
+                    <div class="border">
+                        <div class="content">
+                            <p class="content-title">Lorem ipsum</p>
+                            <p class="content-content">Opis projektu Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id ducimus nostrum et recusandae eius commodi ipsa illum omnis ipsum distinctio architecto. </p>
+                            <p class="content-title">Wykorzystane technologie:</p>
+                            <p class="content-content">HTML5, CSS3, RWD, Bootstrap, JavaScript, jQuery </p>
+                            <i class="fa fa-link" aria-hidden="true"></i>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="photo3" class="photos">
+                <div class="mask">
+                    <div class="border">
+                        <div class="content">
+                            <p class="content-title">Lorem ipsum</p>
+                            <p class="content-content">Opis projektu Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id ducimus nostrum et recusandae eius commodi ipsa illum omnis ipsum distinctio architecto. </p>
+                            <p class="content-title">Wykorzystane technologie:</p>
+                            <p class="content-content">HTML5, CSS3, RWD, Bootstrap, JavaScript, jQuery </p>
+                            <i class="fa fa-link" aria-hidden="true"></i>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div id="photo2" class="photos">
-            <div class="mask">
-                <div class="border">
-                    <div class="content"></div>
-                </div>
+        <div class="clear"></div>
+    </section>
+    <section id='contact'>
+        <div class="contact-box" id="contact-box-left">
+            <h2 id="title-contact">Piotr <span class="green">Pioterek</span></h2> <br>
+            <h3 id="contact-content">
+                <p>ul.Bandurskiego 42/1</p>
+                <p>31-515 Kraków</p><br>
+                <p>tel:509 181 352</p>
+                <a href="ptr.pioterek@gmail.com"><p class="green">e-mail: ptr.pioterek@gmail.com</p></a>
+            </h3>
+            <div id="iconbox">
+                <a href="https://www.w3schools.com" class="icon-link"> <i class="fa fa-facebook-f" id="icon"><div class="mask-icon"></div></i></a>
+                <a href="https://www.w3schools.com" class="icon-link"> <i class="fa fa-google-plus" id="icon"></i></a>
+                <a href="https://www.w3schools.com" class="icon-link"> <i class="fa fa-twitter" id="icon"></i></a>
+                <a href="https://www.w3schools.com" class="icon-link"> <i class="fa fa-linkedin" id="icon"></i></a>
+
             </div>
+
         </div>
-        <div id="photo3" class="photos">
-            <div class="mask">
-                <div class="border">
-                    <div class="content"></div>
-                </div>
-            </div>
+        <div class="contact-box" id="contact-box-right">
+            <form action="">
+                <label for="name"></label>
+                <input type="text" id="name" placeholder="Imię i nazwisko" class="form"><br>
+
+                <label for="email"></label>
+                <input type="email" id="email" placeholder="E-mial" class="form"><br>
+
+                <label for="msg"></label>
+                <textarea name="" id="msg" cols="30" rows="10" placeholder="treść wiadomości" class="form"></textarea> <br>
+                <input type="submit" id="submit-button" value="wyślij ">
+            </form>
+
         </div>
-    </div>
-
-
-
+        <div class="clear"></div>
+    </section>
+    <section id="footer">
+        <p id="copyright">Copyright@Piotr Pioterek</p>
     </section>
 
 
